@@ -1,0 +1,1447 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TestSite</title>
+    <style type="text/css">
+        
+        #p1{
+            position    : fixed;
+            bottom      : 30px;
+            right       : 6px;            
+        }
+        
+        #p1 a {
+            width: 108px;
+            display: block;
+            text-align: center;
+            font: 11px/100% Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #bbb;
+
+            /* transition */
+            -webkit-transition: 1s;
+            -moz-transition: 1s;
+            transition: 1s;
+        }
+        
+        #p1 span {
+            width: 108px;
+            height: 108px;
+            display: block;
+            margin-bottom: 7px;
+            background: #ddd url(uparrow.png) no-repeat center center;
+            background-size:80px 80px;
+            /* rounded corners */
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            border-radius: 15px;
+            /* background color transition */
+            -webkit-transition: 1s;
+            -moz-transition: 1s;
+            transition: 1s;          
+        }
+        
+        #p1 a:hover {
+            color: #000;
+        }
+        
+        #p1 span:hover{
+            background-color: #777;
+        }
+    </style>
+    <script src="jquery-2.0.3.js"></script>
+    <script src="my.js"></script> 
+</head>
+<body>
+<div id="div1" class="ex">
+happy
+</div>
+2
+<hr/>
+<button name="n1">FJK</button>
+<p class="two" id="p1" onclick="ttop()"><a href='javascript:;'><span></span>回顶部</a></p>
+<div>
+<img src="uparrow.svg" style="max-height: 100px; max-width: 100px;" />
+</div>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                             RFC INDEX
+                           -------------
+
+(CREATED ON: 12/03/2013.)
+
+This file contains citations for all RFCs in numeric order.
+
+RFC citations appear in this format:
+
+  ####  Title of RFC.  Author 1, Author 2, Author 3.  Issue date.
+        (Format: ASCII) (Obsoletes xxx) (Obsoleted by xxx) (Updates xxx)
+        (Updated by xxx) (Also FYI ####) (Status: ssssss)
+
+or
+
+  ####  Not Issued.
+
+For example:
+
+  1129 Internet Time Synchronization: The Network Time Protocol. D.L.
+       Mills. Oct-01-1989. (Format: TXT=298, PS=551697, PDF=197036 bytes)
+       (Also RFC1119) (Status: UNKNOWN)
+
+Key to citations:
+
+#### is the RFC number.
+
+Following the RFC number are the title, the author(s), and the
+publication date of the RFC.  Each of these is terminated by a period.
+
+Following the number are the title (terminated with a period), the
+author, or list of authors (terminated with a period), and the date
+(terminated with a period).
+
+The format and length follow in parenthesis.  One or more of the
+following alternative formats are listed:  ASCII text (TXT), PostScript
+(PS), and/or Adobe (PDF).  Each format is followed by an equals sign
+and the number of bytes for that version.  For example (Format:
+TXT=aaaaa, PS=bbbbbb bytes) shows that the ASCII text version is aaaaa
+bytes, and the PostScript version of the RFC is bbbbbb bytes.
+
+Obsoletes xxxx refers to other RFCs that this one replaces;
+Obsoleted by xxxx refers to RFCs that have replaced this one.
+Updates xxxx refers to other RFCs that this one merely updates but
+does not replace); Updated by xxxx refers to RFCs that have updated
+(but not replaced) this one.  Generally, only immediately succeeding
+and/or preceding RFCs are indicated, not the entire history of each
+related earlier or later RFC in a related series.
+
+The (Also FYI ##) or (Also STD ##) or (Also BCP ##) phrase gives the
+equivalent FYI, STD, or BCP number if the RFC is also in those
+document sub-series.  Finally, the Status field gives the document's
+current status (see RFC 2026).
+
+RFCs may be obtained in a number of ways, using HTTP, FTP, or email.
+See the RFC Editor Web page http://www.rfc-editor.org
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                                RFC INDEX
+                                ---------
+   
+
+
+0001 Host Software. S. Crocker. April 1969. (Format: TXT=21088 bytes)
+     (Status: UNKNOWN)
+
+0002 Host software. B. Duvall. April 1969. (Format: TXT=17145 bytes)
+     (Status: UNKNOWN)
+
+0003 Documentation conventions. S.D. Crocker. April 1969. (Format:
+     TXT=2323 bytes) (Obsoleted by RFC0010) (Status: UNKNOWN)
+
+0004 Network timetable. E.B. Shapiro. March 1969. (Format: TXT=5933
+     bytes) (Status: UNKNOWN)
+
+0005 Decode Encode Language (DEL). J. Rulifson. June 1969. (Format:
+     TXT=26408 bytes) (Status: UNKNOWN)
+
+0006 Conversation with Bob Kahn. S.D. Crocker. April 1969. (Format:
+     TXT=1568 bytes) (Status: UNKNOWN)
+
+0007 Host-IMP interface. G. Deloche. May 1969. (Format: TXT=13408
+     bytes) (Status: UNKNOWN)
+
+0008 ARPA Network Functional Specifications. G. Deloche. May 1969.
+     (Format: PDF=750612 bytes) (Status: UNKNOWN)
+
+0009 Host Software. G. Deloche. May 1969. (Format: PDF=722638 bytes)
+     (Status: UNKNOWN)
+
+0010 Documentation conventions. S.D. Crocker. July 1969. (Format:
+     TXT=3348 bytes) (Obsoletes RFC0003) (Obsoleted by RFC0016) (Updated
+     by RFC0024, RFC0027, RFC0030) (Status: UNKNOWN)
+
+0011 Implementation of the Host - Host Software Procedures in GORDO.
+     G. Deloche. August 1969. (Format: TXT=46971, PDF=2186431 bytes)
+     (Obsoleted by RFC0033) (Status: UNKNOWN)
+
+0012 IMP-Host interface flow diagrams. M. Wingfield. August 1969.
+     (Format: TXT=177, PS=1489750, PDF=1163721 bytes) (Status: UNKNOWN)
+
+0013 Zero Text Length EOF Message. V. Cerf. August 1969. (Format:
+     TXT=1070 bytes) (Status: UNKNOWN)
+
+0014 Not Issued.
+
+0015 Network subsystem for time sharing hosts. C.S. Carr. September
+     1969. (Format: TXT=10695 bytes) (Status: UNKNOWN)
+
+0016 M.I.T. S. Crocker. August 1969. (Format: TXT=682 bytes)
+     (Obsoletes RFC0010) (Obsoleted by RFC0024) (Updated by RFC0024,
+     RFC0027, RFC0030) (Status: UNKNOWN)
+
+0017 Some questions re: Host-IMP Protocol. J.E. Kreznar. August 1969.
+     (Format: TXT=6065 bytes) (Status: UNKNOWN)
+
+0018 IMP-IMP and HOST-HOST Control Links. V. Cerf. September 1969.
+     (Format: TXT=634 bytes) (Status: UNKNOWN)
+
+0019 Two protocol suggestions to reduce congestion at swap bound
+     nodes. J.E. Kreznar. October 1969. (Format: TXT=3392 bytes) (Status:
+     UNKNOWN)
+
+0020 ASCII format for network interchange. V.G. Cerf. October 1969.
+     (Format: TXT=18504 bytes) (Status: UNKNOWN)
+
+0021 Network meeting. V.G. Cerf. October 1969. (Format: TXT=2143
+     bytes) (Status: UNKNOWN)
+
+0022 Host-host control message formats. V.G. Cerf. October 1969.
+     (Format: TXT=4606 bytes) (Status: UNKNOWN)
+
+0023 Transmission of Multiple Control Messages. G. Gregg. October
+     1969. (Format: TXT=690 bytes) (Status: UNKNOWN)
+
+0024 Documentation Conventions. S.D. Crocker. November 1969. (Format:
+     TXT=3460 bytes) (Obsoletes RFC0016) (Updates RFC0010, RFC0016)
+     (Updated by RFC0027, RFC0030) (Status: UNKNOWN)
+
+0025 No High Link Numbers. S.D. Crocker. October 1969. (Format:
+     TXT=479 bytes) (Status: UNKNOWN)
+
+0026 Not Issued.
+
+0027 Documentation Conventions. S.D. Crocker. December 1969. (Format:
+     TXT=3661 bytes) (Updates RFC0010, RFC0016, RFC0024) (Updated by
+     RFC0030) (Status: UNKNOWN)
+
+0028 Time Standards. W.K. English. January 1970. (Format: TXT=557
+     bytes) (Status: UNKNOWN)
+
+0029 Response to RFC 28. R.E. Kahn. January 1970. (Format: TXT=790
+     bytes) (Also RFC0028) (Status: UNKNOWN)
+
+0030 Documentation Conventions. S.D. Crocker. February 1970. (Format:
+     TXT=4041 bytes) (Updates RFC0010, RFC0016, RFC0024, RFC0027) (Status:
+     UNKNOWN)
+
+0031 Binary Message Forms in Computer. D. Bobrow, W.R. Sutherland.
+     February 1968. (Format: TXT=11191 bytes) (Status: UNKNOWN)
+
+0032 Some Thoughts on SRI's Proposed Real Time Clock. J. Cole.
+     February 1970. (Format: TXT=2216 bytes) (Status: UNKNOWN)
+
+0033 New Host-Host Protocol. S.D. Crocker. February 1970. (Format:
+     TXT=44167 bytes) (Obsoletes RFC0011) (Updated by RFC0036, RFC0047)
+     (Status: UNKNOWN)
+
+0034 Some Brief Preliminary Notes on the Augmentation Research Center
+     Clock. W.K. English. February 1970. (Format: TXT=2534 bytes) (Status:
+     UNKNOWN)
+
+0035 Network Meeting. S.D. Crocker. March 1970. (Format: TXT=1282
+     bytes) (Status: INFORMATIONAL)
+
+0036 Protocol Notes. S.D. Crocker. March 1970. (Format: TXT=13893
+     bytes) (Updates RFC0033) (Updated by RFC0039, RFC0044) (Status:
+     UNKNOWN)
+
+0037 Network Meeting Epilogue, etc. S.D. Crocker. March 1970. (Format:
+     TXT=9107 bytes) (Status: UNKNOWN)
+
+0038 Comments on Network Protocol from NWG/RFC #36. S.M. Wolfe. March
+     1970. (Format: TXT=2536 bytes) (Status: UNKNOWN)
+
+0039 Comments on Protocol Re: NWG/RFC #36. E. Harslem, J.F. Heafner.
+     March 1970. (Format: TXT=4779 bytes) (Updates RFC0036) (Status:
+     UNKNOWN)
+
+0040 More Comments on the Forthcoming Protocol. E. Harslem, J.F.
+     Heafner. March 1970. (Format: TXT=3825 bytes) (Status: UNKNOWN)
+
+0041 IMP-IMP Teletype Communication. J.T. Melvin. March 1970. (Format:
+     TXT=1038 bytes) (Status: UNKNOWN)
+
+0042 Message Data Types. E. Ancona. March 1970. (Format: TXT=5247
+     bytes) (Status: UNKNOWN)
+
+0043 Proposed Meeting. A.G. Nemeth. April 1970. (Format: TXT=1600
+     bytes) (Status: UNKNOWN)
+
+0044 Comments on NWG/RFC 33 and 36. A. Shoshani, R. Long, A.
+     Landsberg. April 1970. (Format: TXT=7381 bytes) (Updates RFC0036)
+     (Status: UNKNOWN)
+
+0045 New Protocol is Coming. J. Postel, S.D. Crocker. April 1970.
+     (Format: TXT=1130 bytes) (Status: UNKNOWN)
+
+0046 ARPA Network protocol notes. E. Meyer. April 1970. (Format:
+     TXT=41338 bytes) (Status: UNKNOWN)
+
+0047 BBN's Comments on NWG/RFC #33. J. Postel, S. Crocker. April 1970.
+     (Format: TXT=5343 bytes) (Updates RFC0033) (Status: UNKNOWN)
+
+0048 Possible protocol plateau. J. Postel, S.D. Crocker. April 1970.
+     (Format: TXT=41696 bytes) (Status: UNKNOWN)
+
+0049 Conversations with S. Crocker (UCLA). E. Meyer. April 1970.
+     (Format: TXT=12384 bytes) (Status: UNKNOWN)
+
+0050 Comments on the Meyer Proposal. E. Harslen, J. Heafner. April
+     1970. (Format: TXT=4070 bytes) (Status: UNKNOWN)
+
+0051 Proposal for a Network Interchange Language. M. Elie. May 1970.
+     (Format: PDF=967411 bytes) (Status: UNKNOWN)
+
+0052 Updated distribution list. J. Postel, S.D. Crocker. July 1970.
+     (Format: TXT=5088 bytes) (Updated by RFC0069) (Status: UNKNOWN)
+
+0053 Official protocol mechanism. S.D. Crocker. June 1970. (Format:
+     TXT=2330 bytes) (Status: UNKNOWN)
+
+0054 Official Protocol Proffering. S.D. Crocker, J. Postel, J.
+     Newkirk, M. Kraley. June 1970. (Format: TXT=20131 bytes) (Updated by
+     RFC0057) (Status: UNKNOWN)
+
+0055 Prototypical implementation of the NCP. J. Newkirk, M. Kraley, J.
+     Postel, S.D. Crocker. June 1970. (Format: TXT=48070 bytes) (Status:
+     UNKNOWN)
+
+0056 Third Level Protocol: Logger Protocol. E. Belove, D. Black, R.
+     Flegal, L.G. Farquar. June 1970. (Format: TXT=13066 bytes) (Status:
+     UNKNOWN)
+
+0057 Thoughts and Reflections on NWG/RFC 54. M. Kraley, J. Newkirk.
+     June 1970. (Format: TXT=8360 bytes) (Updates RFC0054) (Status:
+     UNKNOWN)
+
+0058 Logical Message Synchronization. T.P. Skinner. June 1970.
+     (Format: TXT=3767 bytes) (Status: UNKNOWN)
+
+0059 Flow Control - Fixed Versus Demand Allocation. E. Meyer. June
+     1970. (Format: TXT=17691 bytes) (Status: UNKNOWN)
+
+0060 Simplified NCP Protocol. R.B. Kalin. July 1970. (Format:
+     TXT=18941 bytes) (Status: UNKNOWN)
+
+0061 Note on Interprocess Communication in a Resource Sharing Computer
+     Network. D.C. Walden. July 1970. (Format: TXT=43946 bytes) (Obsoleted
+     by RFC0062) (Status: UNKNOWN)
+
+0062 Systems for Interprocess Communication in a Resource Sharing
+     Computer Network. D.C. Walden. August 1970. (Format: TXT=55784 bytes)
+     (Obsoletes RFC0061) (Status: UNKNOWN)
+
+0063 Belated Network Meeting Report. V.G. Cerf. July 1970. (Format:
+     TXT=2961 bytes) (Status: UNKNOWN)
+
+0064 Getting rid of marking. M. Elie. July 1970. (Format: TXT=7556
+     bytes) (Status: UNKNOWN)
+
+0065 Comments on Host/Host Protocol document #1. D.C. Walden. August
+     1970. (Format: TXT=5628 bytes) (Status: UNKNOWN)
+
+0066 NIC - third level ideas and other noise. S.D. Crocker. August
+     1970. (Format: TXT=4575 bytes) (Obsoleted by RFC0123) (Updated by
+     RFC0080, RFC0093) (Status: UNKNOWN)
+
+0067 Proposed Change to Host/IMP Spec to Eliminate Marking. W.R.
+     Crowther. January 1970. (Format: TXT=1534 bytes) (Status: UNKNOWN)
+
+0068 Comments on Memory Allocation Control Commands: CEASE, ALL, GVB,
+     RET, and RFNM. M. Elie. August 1970. (Format: TXT=5041 bytes)
+     (Status: UNKNOWN)
+
+0069 Distribution List Change for MIT. A.K. Bhushan. September 1970.
+     (Format: TXT=841 bytes) (Updates RFC0052) (Status: UNKNOWN)
+
+0070 Note on Padding. S.D. Crocker. October 1970. (Format: TXT=12790
+     bytes) (Updated by RFC0228) (Status: UNKNOWN)
+
+0071 Reallocation in Case of Input Error. T. Schipper. September 1970.
+     (Format: TXT=1265 bytes) (Status: UNKNOWN)
+
+0072 Proposed Moratorium on Changes to Network Protocol. R.D.
+     Bressler. September 1970. (Format: TXT=4047 bytes) (Status: UNKNOWN)
+
+0073 Response to NWG/RFC 67. S.D. Crocker. September 1970. (Format:
+     TXT=1268 bytes) (Status: UNKNOWN)
+
+0074 Specifications for Network Use of the UCSB On-Line System. J.E.
+     White. October 1970. (Format: TXT=21368, PDF=521403 bytes) (Updated
+     by RFC0217, RFC0225) (Status: UNKNOWN)
+
+0075 Network Meeting. S.D. Crocker. October 1970. (Format: TXT=1318
+     bytes) (Status: UNKNOWN)
+
+0076 Connection by name: User oriented protocol. J. Bouknight, J.
+     Madden, G.R. Grossman. October 1970. (Format: TXT=26504 bytes)
+     (Status: UNKNOWN)
+
+0077 Network meeting report. J. Postel. November 1970. (Format:
+     TXT=19196 bytes) (Status: UNKNOWN)
+
+0078 NCP Status Report: UCSB/Rand. E. Harslem, J.F. Heafner, J.E.
+     White. October 1970. (Format: TXT=1303 bytes) (Status: UNKNOWN)
+
+0079 Logger Protocol error. E. Meyer. November 1970. (Format: TXT=1515
+     bytes) (Status: UNKNOWN)
+
+0080 Protocols and Data Formats. E. Harslem, J.F. Heafner. December
+     1970. (Format: TXT=17620 bytes) (Obsoleted by RFC0123) (Updates
+     RFC0066) (Updated by RFC0093) (Status: UNKNOWN)
+
+0081 Request for Reference Information. J. Bouknight. December 1970.
+     (Format: TXT=956 bytes) (Status: UNKNOWN)
+
+0082 Network Meeting Notes. E. Meyer. December 1970. (Format:
+     TXT=38023 bytes) (Status: UNKNOWN)
+
+0083 Language-machine for data reconfiguration. R.H. Anderson, E.
+     Harslem, J.F. Heafner. December 1970. (Format: TXT=22253 bytes)
+     (Status: UNKNOWN)
+
+0084 List of NWG/RFC's 1-80. J.B. North. December 1970. (Format:
+     TXT=12613 bytes) (Status: UNKNOWN)
+
+0085 Network Working Group meeting. S.D. Crocker. December 1970.
+     (Format: TXT=1547 bytes) (Status: UNKNOWN)
+
+0086 Proposal for a Network Standard Format for a Data Stream to
+     Control Graphics Display. S.D. Crocker. January 1971. (Format:
+     TXT=7103 bytes) (Updated by RFC0125) (Status: UNKNOWN)
+
+0087 Topic for Discussion at the Next Network Working Group Meeting.
+     A. Vezza. January 1971. (Format: TXT=3593 bytes) (Status: UNKNOWN)
+
+0088 NETRJS: A third level protocol for Remote Job Entry. R.T. Braden,
+     S.M. Wolfe. January 1971. (Format: TXT=19691 bytes) (Obsoleted by
+     RFC0189) (Status: UNKNOWN)
+
+0089 Some historic moments in networking. R.M. Metcalfe. January 1971.
+     (Format: TXT=16832 bytes) (Status: UNKNOWN)
+
+0090 CCN as a Network Service Center. R.T. Braden. January 1971.
+     (Format: TXT=11929 bytes) (Status: UNKNOWN)
+
+0091 Proposed User-User Protocol. G.H. Mealy. December 1970. (Format:
+     TXT=27005 bytes) (Status: UNKNOWN)
+
+0092 Not Issued.
+
+0093 Initial Connection Protocol. A.M. McKenzie. January 1971.
+     (Format: TXT=1746 bytes) (Updates RFC0066, RFC0080) (Status: UNKNOWN)
+
+0094 Some thoughts on Network Graphics. E. Harslem, J.F. Heafner.
+     February 1971. (Format: TXT=13516 bytes) (Status: UNKNOWN)
+
+0095 Distribution of NWG/RFC's through the NIC. S.D. Crocker. February
+     1971. (Format: TXT=8938 bytes) (Obsoleted by RFC0155) (Status:
+     UNKNOWN)
+
+0096 An Interactive Network Experiment to Study Modes of Access the
+     Network Information Center. R.W. Watson. February 1971. (Format:
+     TXT=11334 bytes) (Status: INFORMATIONAL)
+
+0097 First Cut at a Proposed Telnet Protocol. J.T. Melvin, R.W.
+     Watson. February 1971. (Format: TXT=24034, PDF=403375 bytes) (Status:
+     UNKNOWN)
+
+0098 Logger Protocol Proposal. E. Meyer, T. Skinner. February 1971.
+     (Format: TXT=24536 bytes) (Updated by RFC0123) (Status: UNKNOWN)
+
+0099 Network Meeting. P.M. Karp. February 1971. (Format: TXT=1010
+     bytes) (Updated by RFC0116) (Status: UNKNOWN)
+
+0100 Categorization and guide to NWG/RFCs. P.M. Karp. February 1971.
+     (Format: TXT=62473 bytes) (Status: UNKNOWN)
+
+0101 Notes on the Network Working Group meeting, Urbana, Illinois,
+     February 17, 1971. R.W. Watson. February 1971. (Format: TXT=30343
+     bytes) (Updated by RFC0108, RFC0123) (Status: UNKNOWN)
+
+0102 Output of the Host-Host Protocol glitch cleaning committee. S.D.
+     Crocker. February 1971. (Format: TXT=8511 bytes) (Updated by RFC0107)
+     (Status: UNKNOWN)
+
+0103 Implementation of Interrupt Keys. R.B. Kalin. February 1971.
+     (Format: TXT=7592 bytes) (Status: UNKNOWN)
+
+0104 Link 191. J.B. Postel, S.D. Crocker. February 1971. (Format:
+     TXT=1017 bytes) (Status: UNKNOWN)
+
+0105 Network Specifications for Remote Job Entry and Remote Job Output
+     Retrieval at UCSB. J.E. White. March 1971. (Format: TXT=21938 bytes)
+     (Updated by RFC0217) (Status: UNKNOWN)
+
+0106 User/Server Site Protocol Network Host Questionnaire. T.C.
+     O'Sullivan. March 1971. (Format: TXT=6946 bytes) (Status: UNKNOWN)
+
+0107 Output of the Host-Host Protocol Glitch Cleaning Committee. R.D.
+     Bressler, S.D. Crocker, W.R. Crowther, G.R. Grossman, R.S. Tomlinson,
+     J.E. White. March 1971. (Format: TXT=18109 bytes) (Updates RFC0102)
+     (Updated by RFC0111, RFC0124, RFC0132, RFC0154, RFC0179) (Status:
+     UNKNOWN)
+
+0108 Attendance list at the Urbana NWG meeting, February 17-19, 1971.
+     R.W. Watson. March 1971. (Format: TXT=1597 bytes) (Updates RFC0101)
+     (Status: UNKNOWN)
+
+0109 Level III Server Protocol for the Lincoln Laboratory 360/67 Host.
+     J. Winett. March 1971. (Format: TXT=27716, PDF=645921 bytes) (Also
+     RFC0393) (Status: UNKNOWN)
+
+0110 Conventions for Using an IBM 2741 Terminal as a User Console for
+     Access to Network Server Hosts. J. Winett. March 1971. (Format:
+     TXT=8586, PDF=738470 bytes) (Updated by RFC0135) (Status: UNKNOWN)
+
+0111 Pressure from the Chairman. S.D. Crocker. March 1971. (Format:
+     TXT=2098 bytes) (Updates RFC0107) (Updated by RFC0130) (Status:
+     UNKNOWN)
+
+0112 User/Server Site Protocol: Network Host Questionnaire. T.C.
+     O'Sullivan. April 1971. (Format: TXT=1465, PDF=347370 bytes) (Status:
+     UNKNOWN)
+
+0113 Network activity report: UCSB Rand. E. Harslem, J.F. Heafner,
+     J.E. White. April 1971. (Format: TXT=3442 bytes) (Updated by RFC0227)
+     (Status: UNKNOWN)
+
+0114 File Transfer Protocol. A.K. Bhushan. April 1971. (Format:
+     TXT=38981 bytes) (Updated by RFC0133, RFC0141, RFC0171, RFC0172)
+     (Status: UNKNOWN)
+
+0115 Some Network Information Center policies on handling documents.
+     R.W. Watson, J.B. North. April 1971. (Format: TXT=16775 bytes)
+     (Status: UNKNOWN)
+
+0116 Structure of the May NWG Meeting. S.D. Crocker. April 1971.
+     (Format: TXT=2395 bytes) (Updates RFC0099) (Updated by RFC0131,
+     RFC0156) (Status: UNKNOWN)
+
+0117 Some comments on the official protocol. J. Wong. April 1971.
+     (Format: TXT=7128 bytes) (Status: UNKNOWN)
+
+0118 Recommendations for facility documentation. R.W. Watson. April
+     1971. (Format: TXT=4573 bytes) (Status: UNKNOWN)
+
+0119 Network Fortran Subprograms. M. Krilanovich. April 1971. (Format:
+     TXT=39140, PDF=760848 bytes) (Status: UNKNOWN)
+
+0120 Network PL1 subprograms. M. Krilanovich. April 1971. (Format:
+     TXT=37192 bytes) (Status: UNKNOWN)
+
+0121 Network on-line operators. M. Krilanovich. April 1971. (Format:
+     TXT=29419 bytes) (Status: UNKNOWN)
+
+0122 Network specifications for UCSB's Simple-Minded File System. J.E.
+     White. April 1971. (Format: TXT=47638 bytes) (Updated by RFC0217,
+     RFC0269, RFC0399, RFC0431) (Status: UNKNOWN)
+
+0123 Proffered Official ICP. S.D. Crocker. April 1971. (Format:
+     TXT=4812 bytes) (Obsoletes RFC0066, RFC0080) (Obsoleted by RFC0165)
+     (Updates RFC0098, RFC0101) (Updated by RFC0127, RFC0143, RFC0148)
+     (Status: UNKNOWN)
+
+0124 Typographical error in RFC 107. J.T. Melvin. April 1971. (Format:
+     TXT=659 bytes) (Updates RFC0107) (Status: UNKNOWN)
+
+0125 Response to RFC 86: Proposal for Network Standard Format for a
+     Graphics Data Stream. J. McConnell. April 1971. (Format: TXT=8133
+     bytes) (Updates RFC0086) (Updated by RFC0177) (Status: UNKNOWN)
+
+0126 Graphics Facilities at Ames Research Center. J. McConnell. April
+     1971. (Format: TXT=1974 bytes) (Status: UNKNOWN)
+
+0127 Comments on RFC 123. J. Postel. April 1971. (Format: TXT=2305
+     bytes) (Obsoleted by RFC0145) (Updates RFC0123) (Updated by RFC0151)
+     (Status: UNKNOWN)
+
+0128 Bytes. J. Postel. April 1971. (Format: TXT=2745 bytes) (Status:
+     UNKNOWN)
+
+0129 Request for comments on socket name structure. E. Harslem, J.
+     Heafner, E. Meyer. April 1971. (Format: TXT=11175 bytes) (Updated by
+     RFC0147) (Status: UNKNOWN)
+
+0130 Response to RFC 111: Pressure from the chairman. J.F. Heafner.
+     April 1971. (Format: TXT=2580 bytes) (Updates RFC0111) (Status:
+     UNKNOWN)
+
+0131 Response to RFC 116: May NWG meeting. E. Harslem, J.F. Heafner.
+     April 1971. (Format: TXT=5375 bytes) (Updates RFC0116) (Status:
+     UNKNOWN)
+
+0132 Typographical Error in RFC 107. J.E. White. April 1971. (Format:
+     TXT=1058 bytes) (Obsoleted by RFC0154) (Updates RFC0107) (Status:
+     UNKNOWN)
+
+0133 File Transfer and Error Recovery. R.L. Sunberg. April 1971.
+     (Format: TXT=8322 bytes) (Updates RFC0114) (Status: UNKNOWN)
+
+0134 Network Graphics meeting. A. Vezza. April 1971. (Format: TXT=2684
+     bytes) (Status: UNKNOWN)
+
+0135 Response to NWG/RFC 110. W. Hathaway. April 1971. (Format:
+     TXT=5282 bytes) (Updates RFC0110) (Status: UNKNOWN)
+
+0136 Host accounting and administrative procedures. R.E. Kahn. April
+     1971. (Format: TXT=8016 bytes) (Status: UNKNOWN)
+
+0137 Telnet Protocol - a proposed document. T.C. O'Sullivan. April
+     1971. (Format: TXT=17606 bytes) (Updated by RFC0139) (Status:
+     UNKNOWN)
+
+0138 Status report on proposed Data Reconfiguration Service. R.H.
+     Anderson, V.G. Cerf, E. Harslem, J.F. Heafner, J. Madden, R.M.
+     Metcalfe, A. Shoshani, J.E. White, D.C.M. Wood. April 1971. (Format:
+     TXT=46641 bytes) (Status: UNKNOWN)
+
+0139 Discussion of Telnet Protocol. T.C. O'Sullivan. May 1971.
+     (Format: TXT=26085 bytes) (Updates RFC0137) (Updated by RFC0158)
+     (Also RFC0393) (Status: UNKNOWN)
+
+0140 Agenda for the May NWG meeting. S.D. Crocker. May 1971. (Format:
+     TXT=6934 bytes) (Updated by RFC0149) (Status: UNKNOWN)
+
+0141 Comments on RFC 114: A File Transfer Protocol. E. Harslem, J.F.
+     Heafner. April 1971. (Format: TXT=3781 bytes) (Updates RFC0114)
+     (Status: UNKNOWN)
+
+0142 Time-Out Mechanism in the Host-Host Protocol. C. Kline, J. Wong.
+     May 1971. (Format: TXT=4372 bytes) (Status: UNKNOWN)
+
+0143 Regarding proffered official ICP. W. Naylor, J. Wong, C. Kline,
+     J. Postel. May 1971. (Format: TXT=6963 bytes) (Obsoleted by RFC0165)
+     (Updates RFC0123, RFC0145) (Status: UNKNOWN)
+
+0144 Data sharing on computer networks. A. Shoshani. April 1971.
+     (Format: TXT=13744 bytes) (Status: UNKNOWN)
+
+0145 Initial Connection Protocol Control Commands. J. Postel. May
+     1971. (Format: TXT=2490, PS=552114, PDF=15869 bytes) (Obsoletes
+     RFC0127) (Obsoleted by RFC0165) (Updated by RFC0143) (Status:
+     UNKNOWN)
+
+0146 Views on issues relevant to data sharing on computer networks.
+     P.M. Karp, D.B. McKay, D.C.M. Wood. May 1971. (Format: TXT=9828
+     bytes) (Status: UNKNOWN)
+
+0147 Definition of a socket. J.M. Winett. May 1971. (Format: TXT=6438
+     bytes) (Updates RFC0129) (Status: UNKNOWN)
+
+0148 Comments on RFC 123. A.K. Bhushan. May 1971. (Format: TXT=1149
+     bytes) (Updates RFC0123) (Status: UNKNOWN)
+
+0149 Best Laid Plans. S.D. Crocker. May 1971. (Format: TXT=1057 bytes)
+     (Updates RFC0140) (Status: UNKNOWN)
+
+0150 Use of IPC Facilities: A Working Paper. R.B. Kalin. May 1971.
+     (Format: TXT=28163 bytes) (Status: UNKNOWN)
+
+0151 Comments on a proffered official ICP: RFCs 123, 127. A. Shoshani.
+     May 1971. (Format: TXT=3623 bytes) (Updates RFC0127) (Status:
+     UNKNOWN)
+
+0152 SRI Artificial Intelligence status report. M. Wilber. May 1971.
+     (Format: TXT=2726 bytes) (Status: UNKNOWN)
+
+0153 SRI ARC-NIC status. J.T. Melvin, R.W. Watson. May 1971. (Format:
+     TXT=8573 bytes) (Status: UNKNOWN)
+
+0154 Exposition Style. S.D. Crocker. May 1971. (Format: TXT=1293
+     bytes) (Obsoletes RFC0132) (Updates RFC0107) (Status: UNKNOWN)
+
+0155 ARPA Network mailing lists. J.B. North. May 1971. (Format:
+     TXT=11054 bytes) (Obsoletes RFC0095) (Obsoleted by RFC0168) (Status:
+     UNKNOWN)
+
+0156 Status of the Illinois site: Response to RFC 116. J. Bouknight.
+     April 1971. (Format: TXT=1171 bytes) (Updates RFC0116) (Status:
+     UNKNOWN)
+
+0157 Invitation to the Second Symposium on Problems in the
+     Optimization of Data Communications Systems. V.G. Cerf. May 1971.
+     (Format: TXT=3159 bytes) (Status: UNKNOWN)
+
+0158 Telnet Protocol: A Proposed Document. T.C. O'Sullivan. May 1971.
+     (Format: TXT=21025, PDF=429985 bytes) (Obsoleted by RFC0495) (Updates
+     RFC0139) (Updated by RFC0318) (Also RFC0393) (Status: UNKNOWN)
+
+0159 Not Issued.
+
+0160 RFC brief list. Network Information Center. Stanford Research
+     Institute. May 1971. (Format: TXT=12173 bytes) (Obsoleted by RFC0200,
+     RFC0999) (Updates NIC 6716) (Status: UNKNOWN)
+
+0161 Solution to the race condition in the ICP. A. Shoshani. May 1971.
+     (Format: TXT=2026 bytes) (Status: UNKNOWN)
+
+0162 NETBUGGER3. M. Kampe. May 1971. (Format: TXT=3153 bytes) (Status:
+     UNKNOWN)
+
+0163 Data transfer protocols. V.G. Cerf. May 1971. (Format: TXT=5465
+     bytes) (Status: UNKNOWN)
+
+0164 Minutes of Network Working Group meeting, 5/16 through 5/19/71.
+     J.F. Heafner. May 1971. (Format: TXT=58597 bytes) (Status: UNKNOWN)
+
+0165 Proffered Official Initial Connection Protocol. J. Postel. May
+     1971. (Format: TXT=8488, PDF=248876 bytes) (Obsoletes RFC0145,
+     RFC0143, RFC0123) (Updated by NIC7101) (Status: UNKNOWN)
+
+0166 Data Reconfiguration Service: An implementation specification.
+     R.H. Anderson, V.G. Cerf, E. Harslem, J.F. Heafner, J. Madden, R.M.
+     Metcalfe, A. Shoshani, J.E. White, D.C.M. Wood. May 1971. (Format:
+     TXT=42094 bytes) (Status: UNKNOWN)
+
+0167 Socket conventions reconsidered. A.K. Bhushan, R.M. Metcalfe,
+     J.M. Winett. May 1971. (Format: TXT=7643 bytes) (Also RFC0147,
+     RFC0129) (Status: UNKNOWN)
+
+0168 ARPA Network mailing lists. J.B. North. May 1971. (Format:
+     TXT=13294 bytes) (Obsoletes RFC0155) (Obsoleted by RFC0211) (Status:
+     UNKNOWN)
+
+0169 COMPUTER NETWORKS. S.D. Crocker. May 1971. (Format: TXT=7061,
+     PDF=178823 bytes) (Status: UNKNOWN)
+
+0170 RFC List by Number. Network Information Center. Stanford Research
+     Institute. June 1971. (Format: TXT=17670 bytes) (Obsoleted by
+     RFC0200) (Status: UNKNOWN)
+
+0171 The Data Transfer Protocol. A. Bhushan, B. Braden, W. Crowther,
+     E. Harslem, J. Heafner, A. McKenize, J. Melvin, B. Sundberg, D.
+     Watson, J. White. June 1971. (Format: TXT=20616 bytes) (Obsoleted by
+     RFC0264) (Updates RFC0114) (Updated by RFC0238) (Status: UNKNOWN)
+
+0172 The File Transfer Protocol. A. Bhushan, B. Braden, W. Crowther,
+     E. Harslem, J. Heafner, A. McKenzie, J. Melvin, B. Sundberg, D.
+     Watson, J. White. June 1971. (Format: TXT=21328 bytes) (Obsoleted by
+     RFC0265) (Updates RFC0114) (Updated by RFC0238) (Status: UNKNOWN)
+
+0173 Network Data Management Committee Meeting Announcement. P.M.
+     Karp, D.B. McKay. June 1971. (Format: TXT=4239 bytes) (Status:
+     UNKNOWN)
+
+0174 UCLA - Computer Science Graphics Overview. J. Postel, V.G. Cerf.
+     June 1971. (Format: TXT=5037 bytes) (Status: UNKNOWN)
+
+0175 Comments on "Socket Conventions Reconsidered". E. Harslem, J.F.
+     Heafner. June 1971. (Format: TXT=2225 bytes) (Status: UNKNOWN)
+
+0176 Comments on "Byte size for connections". A.K. Bhushan, R.
+     Kanodia, R.M. Metcalfe, J. Postel. June 1971. (Format: TXT=7269
+     bytes) (Status: UNKNOWN)
+
+0177 Device independent graphical display description. J. McConnell.
+     June 1971. (Format: TXT=20474 bytes) (Updates RFC0125) (Updated by
+     RFC0181) (Status: UNKNOWN)
+
+0178 Network graphic attention handling. I.W. Cotton. June 1971.
+     (Format: TXT=24522 bytes) (Status: UNKNOWN)
+
+0179 Link Number Assignments. A.M. McKenzie. June 1971. (Format:
+     TXT=1221 bytes) (Updates RFC0107) (Status: UNKNOWN)
+
+0180 File system questionnaire. A.M. McKenzie. June 1971. (Format:
+     TXT=8154 bytes) (Status: UNKNOWN)
+
+0181 Modifications to RFC 177. J. McConnell. July 1971. (Format:
+     TXT=4892 bytes) (Updates RFC0177) (Status: UNKNOWN)
+
+0182 Compilation of list of relevant site reports. J.B. North. June
+     1971. (Format: TXT=2565 bytes) (Status: UNKNOWN)
+
+0183 EBCDIC Codes and Their Mapping to ASCII. J.M. Winett. July 1971.
+     (Format: TXT=22256, PDF=577092 bytes) (Status: UNKNOWN)
+
+0184 Proposed graphic display modes. K.C. Kelley. July 1971. (Format:
+     TXT=18678 bytes) (Status: UNKNOWN)
+
+0185 NIC distribution of manuals and handbooks. J.B. North. July 1971.
+     (Format: TXT=1406 bytes) (Status: UNKNOWN)
+
+0186 Network graphics loader. J.C. Michener. July 1971. (Format:
+     TXT=30557 bytes) (Status: UNKNOWN)
+
+0187 Network/440 Protocol Concept. D.B. McKay, D.P. Karp. July 1971.
+     (Format: TXT=25042 bytes) (Status: UNKNOWN)
+
+0188 Data management meeting announcement. P.M. Karp, D.B. McKay.
+     January 1971. (Format: TXT=3383 bytes) (Status: UNKNOWN)
+
+0189 Interim NETRJS specifications. R.T. Braden. July 1971. (Format:
+     TXT=41383 bytes) (Obsoletes RFC0088) (Obsoleted by RFC0599) (Updated
+     by RFC0283) (Status: UNKNOWN)
+
+0190 DEC PDP-10-IMLAC communications system. L.P. Deutsch. July 1971.
+     (Format: TXT=18752 bytes) (Status: UNKNOWN)
+
+0191 Graphics implementation and conceptualization at Augmentation
+     Research Center. C.H. Irby. July 1971. (Format: TXT=8179 bytes)
+     (Status: UNKNOWN)
+
+0192 Some factors which a Network Graphics Protocol must consider.
+     R.W. Watson. July 1971. (Format: TXT=48540 bytes) (Status: UNKNOWN)
+
+0193 NETWORK CHECKOUT. E. Harslem, J.F. Heafner. July 1971. (Format:
+     TXT=3622 bytes) (Obsoleted by RFC0198) (Updated by RFC0198) (Status:
+     UNKNOWN)
+
+0194 The Data Reconfiguration Service -- Compiler/Interpreter
+     Implementation Notes. V. Cerf, E. Harslem, J. Heafner, B. Metcalfe,
+     J. White. July 1971. (Format: TXT=32716 bytes) (Status: UNKNOWN)
+
+0195 Data computers-data descriptions and access language. G.H. Mealy.
+     July 1971. (Format: TXT=8704 bytes) (Status: UNKNOWN)
+
+0196 Mail Box Protocol. R.W. Watson. July 1971. (Format: TXT=7016
+     bytes) (Obsoleted by RFC0221) (Status: UNKNOWN)
+
+0197 Initial Connection Protocol - Reviewed. A. Shoshani, E. Harslem.
+     July 1971. (Format: TXT=7094 bytes) (Status: UNKNOWN)
+
+0198 Site Certification - Lincoln Labs 360/67. J.F. Heafner. July
+     1971. (Format: TXT=855 bytes) (Obsoletes RFC0193) (Obsoleted by
+     RFC0214) (Updates RFC0193) (Status: UNKNOWN)
+
+0199 Suggestions for a Network Data-Tablet Graphics Protocol. T.
+     Williams. July 1971. (Format: TXT=18660, PDF=542961 bytes) (Status:
+     UNKNOWN)
+
+0200 RFC list by number. J.B. North. August 1971. (Format: TXT=19256
+     bytes) (Obsoletes RFC0170, RFC0160) (Obsoleted by NIC 7724) (Status:
+     UNKNOWN)
+
+0201 Not Issued.
+
+0202 Possible Deadlock in ICP. S.M. Wolfe, J. Postel. July 1971.
+     (Format: TXT=2796 bytes) (Status: UNKNOWN)
+
+0203 Achieving reliable communication. R.B. Kalin. August 1971.
+     (Format: TXT=9253 bytes) (Status: UNKNOWN)
+
+0204 Sockets in use. J. Postel. August 1971. (Format: TXT=1379 bytes)
+     (Updated by RFC0234) (Status: UNKNOWN)
+
+0205 NETCRT - a character display protocol. R.T. Braden. August 1971.
+     (Format: TXT=28272 bytes) (Status: UNKNOWN)
+
+0206 A User TELNET Description of an Initial Implementation. J. White.
+     August 1971. (Format: TXT=33152, PDF=617017 bytes) (Status: UNKNOWN)
+
+0207 September Network Working Group meeting. A. Vezza. August 1971.
+     (Format: TXT=3356 bytes) (Obsoleted by RFC0212) (Status: UNKNOWN)
+
+0208 Address tables. A.M. McKenzie. August 1971. (Format: TXT=5858
+     bytes) (Status: UNKNOWN)
+
+0209 Host/IMP interface documentation. B. Cosell. August 1971.
+     (Format: TXT=2566 bytes) (Status: UNKNOWN)
+
+0210 Improvement of Flow Control. W. Conrad. August 1971. (Format:
+     TXT=3329 bytes) (Status: UNKNOWN)
+
+0211 ARPA Network Mailing Lists. J.B. North. August 1971. (Format:
+     TXT=13205, PDF=210300 bytes) (Obsoletes RFC0168) (Obsoleted by
+     RFC0300) (Status: UNKNOWN)
+
+0212 NWG meeting on network usage. Information Sciences Institute
+     University of Southern California. August 1971. (Format: TXT=4356
+     bytes) (Obsoletes RFC0207) (Updated by RFC0222) (Status: UNKNOWN)
+
+0213 IMP System change notification. B. Cosell. August 1971. (Format:
+     TXT=1589 bytes) (Status: UNKNOWN)
+
+0214 Network checkpoint. E. Harslem. August 1971. (Format: TXT=3047
+     bytes) (Obsoletes RFC0198) (Status: UNKNOWN)
+
+0215 NCP, ICP, and Telnet: The Terminal IMP implementation. A.M.
+     McKenzie. August 1971. (Format: TXT=16645 bytes) (Status: UNKNOWN)
+
+0216 Telnet Access to UCSB's On-Line System. J.E. White. September
+     1971. (Format: TXT=37570, PDF=908675 bytes) (Status: UNKNOWN)
+
+0217 Specifications changes for OLS, RJE/RJOR, and SMFS. J.E. White.
+     September 1971. (Format: TXT=2956 bytes) (Updates RFC0074, RFC0105,
+     RFC0122) (Status: UNKNOWN)
+
+0218 Changing the IMP status reporting facility. B. Cosell. September
+     1971. (Format: TXT=1131 bytes) (Status: UNKNOWN)
+
+0219 User's View of the Datacomputer. R. Winter. September 1971.
+     (Format: TXT=16631 bytes) (Status: UNKNOWN)
+
+0220 Not Issued.
+
+0221 Mail Box Protocol: Version 2. R.W. Watson. August 1971. (Format:
+     TXT=9805 bytes) (Obsoletes RFC0196) (Obsoleted by RFC0278) (Status:
+     UNKNOWN)
+
+0222 Subject: System programmer's workshop. R.M. Metcalfe. September
+     1971. (Format: TXT=4023 bytes) (Updates RFC0212) (Updated by RFC0234)
+     (Status: UNKNOWN)
+
+0223 Network Information Center schedule for network users. J.T.
+     Melvin, R.W. Watson. September 1971. (Format: TXT=5369 bytes)
+     (Status: UNKNOWN)
+
+0224 Comments on Mailbox Protocol. A.M. McKenzie. September 1971.
+     (Format: TXT=3583 bytes) (Status: UNKNOWN)
+
+0225 Rand/UCSB network graphics experiment. E. Harslem, R. Stoughton.
+     September 1971. (Format: TXT=13573 bytes) (Updates RFC0074) (Status:
+     UNKNOWN)
+
+0226 Standardization of host mnemonics. P.M. Karp. September 1971.
+     (Format: TXT=2012 bytes) (Obsoleted by RFC0247) (Status: UNKNOWN)
+
+0227 Data transfer rates (Rand/UCLA). J.F. Heafner, E. Harslem.
+     September 1971. (Format: TXT=2451 bytes) (Updates RFC0113) (Status:
+     UNKNOWN)
+
+0228 Clarification. D.C. Walden. September 1971. (Format: TXT=715
+     bytes) (Updates RFC0070) (Status: UNKNOWN)
+
+0229 Standard host names. J. Postel. September 1971. (Format: TXT=3388
+     bytes) (Obsoleted by RFC0236) (Status: UNKNOWN)
+
+0230 Toward reliable operation of minicomputer-based terminals on a
+     TIP. T. Pyke. September 1971. (Format: TXT=7040 bytes) (Status:
+     UNKNOWN)
+
+0231 Service center standards for remote usage: A user's view. J.F.
+     Heafner, E. Harslem. September 1971. (Format: TXT=9692 bytes)
+     (Status: UNKNOWN)
+
+0232 Postponement of network graphics meeting. A. Vezza. September
+     1971. (Format: TXT=899 bytes) (Status: UNKNOWN)
+
+0233 Standardization of host call letters. A. Bhushan, R. Metcalfe.
+     September 1971. (Format: TXT=3206 bytes) (Status: UNKNOWN)
+
+0234 Network Working Group meeting schedule. A. Vezza. October 1971.
+     (Format: TXT=1634 bytes) (Updates RFC0222, RFC0204) (Status: UNKNOWN)
+
+0235 Site status. E. Westheimer. September 1971. (Format: TXT=7994
+     bytes) (Obsoleted by RFC0240) (Status: UNKNOWN)
+
+0236 Standard host names. J. Postel. September 1971. (Format: TXT=5112
+     bytes) (Obsoletes RFC0229) (Status: UNKNOWN)
+
+0237 NIC view of standard host names. R.W. Watson. October 1971.
+     (Format: TXT=2212 bytes) (Obsoleted by RFC0273) (Status: UNKNOWN)
+
+0238 Comments on DTP and FTP proposals. R.T. Braden. September 1971.
+     (Format: TXT=2735 bytes) (Updates RFC0171, RFC0172) (Status: UNKNOWN)
+
+0239 Host mnemonics proposed in RFC 226 (NIC 7625). R.T. Braden.
+     September 1971. (Format: TXT=2236 bytes) (Also RFC0226, RFC0229,
+     RFC0236) (Status: UNKNOWN)
+
+0240 Site Status. A.M. McKenzie. September 1971. (Format: TXT=7948
+     bytes) (Obsoletes RFC0235) (Obsoleted by RFC0252) (Status: UNKNOWN)
+
+0241 Connecting computers to MLC ports. A.M. McKenzie. September 1971.
+     (Format: TXT=3739 bytes) (Status: UNKNOWN)
+
+0242 Data Descriptive Language for Shared Data. L. Haibt, A.P.
+     Mullery. July 1971. (Format: TXT=18151 bytes) (Status: UNKNOWN)
+
+0243 Network and data sharing bibliography. A.P. Mullery. October
+     1971. (Format: TXT=12432 bytes) (Obsoleted by RFC0290) (Status:
+     UNKNOWN)
+
+0244 Not Issued.
+
+0245 Reservations for Network Group meeting. C. Falls. October 1971.
+     (Format: TXT=1142 bytes) (Status: UNKNOWN)
+
+0246 Network Graphics meeting. A. Vezza. October 1971. (Format:
+     TXT=856 bytes) (Status: UNKNOWN)
+
+0247 Proffered set of standard host names. P.M. Karp. October 1971.
+     (Format: TXT=7122 bytes) (Obsoletes RFC0226) (Status: UNKNOWN)
+
+0248 Not Issued.
+
+0249 Coordination of equipment and supplies purchase. R.F. Borelli.
+     October 1971. (Format: TXT=4561 bytes) (Status: UNKNOWN)
+
+0250 Some thoughts on file transfer. H. Brodie. October 1971. (Format:
+     TXT=2446 bytes) (Status: UNKNOWN)
+
+0251 Weather data. D. Stern. October 1971. (Format: TXT=1907 bytes)
+     (Status: UNKNOWN)
+
+0252 Network host status. E. Westheimer. October 1971. (Format:
+     TXT=5531 bytes) (Obsoletes RFC0240) (Obsoleted by RFC0255) (Status:
+     UNKNOWN)
+
+0253 Second Network Graphics meeting details. J.A. Moorer. October
+     1971. (Format: TXT=1981 bytes) (Status: UNKNOWN)
+
+0254 Scenarios for using ARPANET computers. A. Bhushan. October 1971.
+     (Format: TXT=40998, PDF=4903124 bytes) (Status: UNKNOWN)
+
+0255 Status of network hosts. E. Westheimer. October 1971. (Format:
+     TXT=4002 bytes) (Obsoletes RFC0252) (Obsoleted by RFC0266) (Status:
+     UNKNOWN)
+
+0256 IMPSYS change notification. B. Cosell. November 1971. (Format:
+     TXT=1240 bytes) (Status: UNKNOWN)
+
+0257 Not Issued.
+
+0258 Not Issued.
+
+0259 Not Issued.
+
+0260 Not Issued.
+
+0261 Not Issued.
+
+0262 Not Issued.
+
+0263 "Very Distant" Host interface. A.M. McKenzie. December 1971.
+     (Format: TXT=3914 bytes) (Status: UNKNOWN)
+
+0264 The Data Transfer Protocol. A. Bhushan, B. Braden, W. Crowther,
+     E. Harslem, J. Heafner, A. McKenize, B. Sundberg, D. Watson, J.
+     White. January 1972. (Format: TXT=20907 bytes) (Obsoletes RFC0171)
+     (Obsoleted by RFC0354) (Updated by RFC0310) (Also RFC0265) (Status:
+     UNKNOWN)
+
+0265 The File Transfer Protocol. A. Bhushan, B. Braden, W. Crowther,
+     E. Harslem, J. Heafner, A. McKenzie, J. Melvin, B. Sundberg, D.
+     Watson, J. White. November 1971. (Format: TXT=3914 bytes) (Obsoletes
+     RFC0172) (Obsoleted by RFC0354) (Updated by RFC0281, RFC0294,
+     RFC0310) (Also RFC0264) (Status: UNKNOWN)
+
+0266 Network host status. E. Westheimer. November 1971. (Format:
+     TXT=3174 bytes) (Obsoletes RFC0255) (Obsoleted by RFC0267) (Status:
+     UNKNOWN)
+
+0267 Network Host Status. E. Westheimer. November 1971. (Format:
+     TXT=7862 bytes) (Obsoletes RFC0266) (Obsoleted by RFC0287) (Status:
+     UNKNOWN)
+
+0268 Graphics facilities information. J. Postel. November 1971.
+     (Format: TXT=1298 bytes) (Status: UNKNOWN)
+
+0269 Some Experience with File Transfer. H. Brodie. December 1971.
+     (Format: TXT=5961 bytes) (Updates RFC0122) (Status: UNKNOWN)
+
+0270 Correction to BBN Report No. 1822 (NIC NO 7958). A.M. McKenzie.
+     January 1972. (Format: TXT=1371 bytes) (Updates NIC 7959) (Status:
+     UNKNOWN)
+
+0271 IMP System change notifications. B. Cosell. January 1972.
+     (Format: TXT=4022 bytes) (Status: UNKNOWN)
+
+0272 Not Issued.
+
+0273 More on standard host names. R.W. Watson. October 1971. (Format:
+     TXT=4589 bytes) (Obsoletes RFC0237) (Status: UNKNOWN)
+
+0274 Establishing a local guide for network usage. E. Forman. November
+     1971. (Format: TXT=7114 bytes) (Status: UNKNOWN)
+
+0275 Not Issued.
+
+0276 NIC course. R.W. Watson. November 1971. (Format: TXT=1183 bytes)
+     (Status: UNKNOWN)
+
+0277 Not Issued.
+
+0278 Revision of the Mail Box Protocol. A.K. Bhushan, R.T. Braden, E.
+     Harslem, J.F. Heafner, A.M. McKenzie, J.T. Melvin, R.L. Sundberg,
+     R.W. Watson, J.E. White. November 1971. (Format: TXT=7526 bytes)
+     (Obsoletes RFC0221) (Status: UNKNOWN)
+
+0279 Not Issued.
+
+0280 A Draft of Host Names. R.W. Watson. November 1971. (Format:
+     TXT=3629 bytes) (Status: UNKNOWN)
+
+0281 Suggested addition to File Transfer Protocol. A.M. McKenzie.
+     December 1971. (Format: TXT=12006 bytes) (Updates RFC0265) (Status:
+     UNKNOWN)
+
+0282 Graphics meeting report. M.A. Padlipsky. December 1971. (Format:
+     TXT=18100 bytes) (Status: UNKNOWN)
+
+0283 NETRJT: Remote Job Service Protocol for TIPS. R.T. Braden.
+     December 1971. (Format: TXT=18771 bytes) (Updates RFC0189) (Status:
+     UNKNOWN)
+
+0284 Not Issued.
+
+0285 Network graphics. D. Huff. December 1971. (Format: TXT=18076
+     bytes) (Status: UNKNOWN)
+
+0286 Network Library Information System. E. Forman. December 1971.
+     (Format: TXT=2079 bytes) (Status: UNKNOWN)
+
+0287 Status of Network Hosts. E. Westheimer. December 1971. (Format:
+     TXT=9217 bytes) (Obsoletes RFC0267) (Obsoleted by RFC0288) (Status:
+     UNKNOWN)
+
+0288 Network host status. E. Westheimer. January 1972. (Format:
+     TXT=8501 bytes) (Obsoletes RFC0287) (Obsoleted by RFC0293) (Updated
+     by RFC0293) (Status: UNKNOWN)
+
+0289 What we hope is an official list of host names. R.W. Watson.
+     December 1971. (Format: TXT=5069 bytes) (Obsoleted by RFC0384)
+     (Status: UNKNOWN)
+
+0290 Computer networks and data sharing: A bibliography. A.P. Mullery.
+     January 1972. (Format: TXT=34329 bytes) (Obsoletes RFC0243) (Status:
+     UNKNOWN)
+
+0291 Data Management Meeting Announcement. D.B. McKay. January 1972.
+     (Format: TXT=3375 bytes) (Status: UNKNOWN)
+
+0292 Graphics Protocol: Level 0 only. J.C. Michener, I.W. Cotton, K.C.
+     Kelley, D.E. Liddle, E. Meyer. January 1972. (Format: TXT=22342
+     bytes) (Obsoleted by RFC0493) (Status: UNKNOWN)
+
+0293 Network Host Status. E. Westheimer. January 1972. (Format:
+     TXT=7639 bytes) (Obsoletes RFC0288) (Obsoleted by RFC0298) (Updates
+     RFC0288) (Status: UNKNOWN)
+
+0294 The Use of "Set Data Type" Transaction in File Transfer Protocol.
+     A.K. Bhushan. January 1972. (Format: TXT=3924 bytes) (Updates
+     RFC0265) (Status: UNKNOWN)
+
+0295 Report of the Protocol Workshop, 12 October 1971. J. Postel.
+     January 1972. (Format: TXT=5432 bytes) (Status: UNKNOWN)
+
+0296 DS-1 Display System. D.E. Liddle. January 1972. (Format:
+     TXT=37921, PDF=1560765 bytes) (Status: UNKNOWN)
+
+0297 TIP Message Buffers. D.C. Walden. January 1972. (Format: TXT=3517
+     bytes) (Status: UNKNOWN)
+
+0298 Network host status. E. Westheimer. February 1972. (Format:
+     TXT=8770 bytes) (Obsoletes RFC0293) (Obsoleted by RFC0306) (Status:
+     UNKNOWN)
+
+0299 Information Management System. D. Hopkin. February 1972. (Format:
+     TXT=1825 bytes) (Status: UNKNOWN)
+
+0300 ARPA Network mailing lists. J.B. North. January 1972. (Format:
+     TXT=16357 bytes) (Obsoletes RFC0211) (Obsoleted by RFC0303) (Status:
+     UNKNOWN)
+
+0301 BBN IMP (#5) and NCC Schedule March 4, 1971. R. Alter. February
+     1972. (Format: TXT=1487 bytes) (Status: UNKNOWN)
+
+0302 Exercising The ARPANET. R.F. Bryan. February 1972. (Format:
+     TXT=5452 bytes) (Status: UNKNOWN)
+
+0303 ARPA Network mailing lists. Network Information Center. Stanford
+     Research Institute. March 1972. (Format: TXT=18193 bytes) (Obsoletes
+     RFC0300) (Obsoleted by RFC0329) (Status: UNKNOWN)
+
+0304 Data Management System Proposal for the ARPA Network. D.B. McKay.
+     February 1972. (Format: TXT=20446, PDF=465564 bytes) (Status:
+     UNKNOWN)
+
+0305 Unknown Host Numbers. R. Alter. February 1972. (Format: TXT=1998
+     bytes) (Status: UNKNOWN)
+
+0306 Network host status. E. Westheimer. February 1972. (Format:
+     TXT=7485 bytes) (Obsoletes RFC0298) (Obsoleted by RFC0315) (Status:
+     UNKNOWN)
+
+0307 Using network Remote Job Entry. E. Harslem. February 1972.
+     (Format: TXT=12032 bytes) (Status: UNKNOWN)
+
+0308 ARPANET host availability data. M. Seriff. March 1972. (Format:
+     TXT=5948 bytes) (Status: UNKNOWN)
+
+0309 Data and File Transfer Workshop Announcement. A.K. Bhushan. March
+     1972. (Format: TXT=9404 bytes) (Status: UNKNOWN)
+
+0310 Another Look at Data and File Transfer Protocols. A.K. Bhushan.
+     April 1972. (Format: TXT=18593 bytes) (Updates RFC0264, RFC0265)
+     (Status: UNKNOWN)
+
+0311 New Console Attachments to the USCB Host. R.F. Bryan. February
+     1972. (Format: TXT=3141 bytes) (Status: UNKNOWN)
+
+0312 Proposed Change in IMP-to-Host Protocol. A.M. McKenzie. March
+     1972. (Format: TXT=3562 bytes) (Status: UNKNOWN)
+
+0313 Computer based instruction. T.C. O'Sullivan. March 1972. (Format:
+     TXT=19880 bytes) (Status: UNKNOWN)
+
+0314 Network Graphics Working Group Meeting. I.W. Cotton. March 1972.
+     (Format: TXT=1836 bytes) (Status: UNKNOWN)
+
+0315 Network Host Status. E. Westheimer. March 1972. (Format: TXT=7818
+     bytes) (Obsoletes RFC0306) (Obsoleted by RFC0319) (Status: UNKNOWN)
+
+0316 ARPA Network Data Management Working Group. D.B. McKay, A.P.
+     Mullery. February 1972. (Format: TXT=15494 bytes) (Status: UNKNOWN)
+
+0317 Official Host-Host Protocol Modification: Assigned Link Numbers.
+     J. Postel. March 1972. (Format: TXT=1593 bytes) (Obsoleted by
+     RFC0604) (Status: UNKNOWN)
+
+0318 Telnet Protocols. J. Postel. April 1972. (Format: TXT=34928
+     bytes) (Updates RFC0158) (Updated by RFC0435) (Also RFC0139, RFC0158)
+     (Status: UNKNOWN)
+
+0319 Network Host Status. E. Westheimer. March 1972. (Format: TXT=8955
+     bytes) (Obsoletes RFC0315) (Updated by RFC0326) (Status: UNKNOWN)
+
+0320 Workshop on Hard Copy Line Graphics. R. Reddy. March 1972.
+     (Format: TXT=5600, PDF=14422 bytes) (Status: UNKNOWN)
+
+0321 CBI Networking Activity at MITRE. P.M. Karp. March 1972. (Format:
+     TXT=20500 bytes) (Status: UNKNOWN)
+
+0322 Well known socket numbers. V. Cerf, J. Postel. March 1972.
+     (Format: TXT=1735 bytes) (Status: UNKNOWN)
+
+0323 Formation of Network Measurement Group (NMG). V. Cerf. March
+     1972. (Format: TXT=15777 bytes) (Updated by RFC0388) (Status:
+     UNKNOWN)
+
+0324 RJE Protocol meeting. J. Postel. April 1972. (Format: TXT=1176
+     bytes) (Status: UNKNOWN)
+
+0325 Network Remote Job Entry program - NETRJS. G. Hicks. April 1972.
+     (Format: TXT=17499 bytes) (Status: UNKNOWN)
+
+0326 Network Host Status. E. Westheimer. April 1972. (Format: TXT=7944
+     bytes) (Obsoleted by RFC0330) (Updates RFC0319) (Status: UNKNOWN)
+
+0327 Data and File Transfer workshop notes. A.K. Bhushan. April 1972.
+     (Format: TXT=11792 bytes) (Status: UNKNOWN)
+
+0328 Suggested Telnet Protocol Changes. J. Postel. April 1972.
+     (Format: TXT=2685 bytes) (Status: UNKNOWN)
+
+0329 ARPA Network Mailing Lists. Network Information Center. Stanford
+     Research Institute. May 1972. (Format: TXT=23861 bytes) (Obsoletes
+     RFC0303) (Obsoleted by RFC0363) (Status: UNKNOWN)
+
+0330 Network Host Status. E. Westheimer. April 1972. (Format: TXT=8085
+     bytes) (Obsoletes RFC0326) (Updated by RFC0332) (Status: UNKNOWN)
+
+0331 IMP System Change Notification. J.M. McQuillan. April 1972.
+     (Format: TXT=2339 bytes) (Obsoleted by RFC0343) (Status: UNKNOWN)
+
+0332 Network Host Status. E. Westheimer. April 1972. (Format: TXT=8427
+     bytes) (Obsoleted by RFC0342) (Updates RFC0330) (Status: UNKNOWN)
+
+0333 Proposed experiment with a Message Switching Protocol. R.D.
+     Bressler, D. Murphy, D.C. Walden. May 1972. (Format: TXT=62507 bytes)
+     (Status: UNKNOWN)
+
+0334 Network Use on May 8. A.M. McKenzie. May 1972. (Format: TXT=1376
+     bytes) (Status: UNKNOWN)
+
+0335 New Interface - IMP/360. R.F. Bryan. May 1972. (Format: TXT=934
+     bytes) (Status: UNKNOWN)
+
+0336 Level 0 Graphic Input Protocol. I.W. Cotton. May 1972. (Format:
+     TXT=3787 bytes) (Status: UNKNOWN)
+
+0337 Not Issued.
+
+0338 EBCDIC/ASCII Mapping for Network RJE. R.T. Braden. May 1972.
+     (Format: TXT=11494, PS=2386987, PDF=1871020 bytes) (Status: UNKNOWN)
+
+0339 MLTNET: A "Multi Telnet" Subsystem for Tenex. R. Thomas. May
+     1972. (Format: TXT=7941 bytes) (Status: UNKNOWN)
+
+0340 Proposed Telnet Changes. T.C. O'Sullivan. May 1972. (Format:
+     TXT=2656 bytes) (Also RFC0328) (Status: UNKNOWN)
+
+0341 Not Issued.
+
+0342 Network Host Status. E. Westheimer. May 1972. (Format: TXT=8382
+     bytes) (Obsoletes RFC0332) (Obsoleted by RFC0344) (Status: UNKNOWN)
+
+0343 IMP System change notification. A.M. McKenzie. May 1972. (Format:
+     TXT=3370 bytes) (Obsoletes RFC0331) (Obsoleted by RFC0359) (Status:
+     UNKNOWN)
+
+0344 Network Host Status. E. Westheimer. May 1972. (Format: TXT=8221
+     bytes) (Obsoletes RFC0342) (Obsoleted by RFC0353) (Status: UNKNOWN)
+
+0345 Interest in Mixed Integer Programming (MPSX on NIC 360/91 at
+     CCN). K.C. Kelley. May 1972. (Format: TXT=1999 bytes) (Status:
+     UNKNOWN)
+
+0346 Satellite Considerations. J. Postel. May 1972. (Format: TXT=2778
+     bytes) (Status: UNKNOWN)
+
+0347 Echo process. J. Postel. May 1972. (Format: TXT=1377 bytes)
+     (Status: UNKNOWN)
+
+0348 Discard Process. J. Postel. May 1972. (Format: TXT=1181 bytes)
+     (Status: UNKNOWN)
+
+0349 Proposed Standard Socket Numbers. J. Postel. May 1972. (Format:
+     TXT=1663 bytes) (Obsoleted by RFC0433) (Also RFC0322, RFC0204)
+     (Status: UNKNOWN)
+
+0350 User Accounts for UCSB On-Line System. R. Stoughton. May 1972.
+     (Format: TXT=5117 bytes) (Status: UNKNOWN)
+
+0351 Graphics information form for the ARPANET graphics resources
+     notebook. D. Crocker. June 1972. (Format: TXT=2150 bytes) (Status:
+     UNKNOWN)
+
+0352 TIP Site Information Form. D. Crocker. June 1972. (Format:
+     TXT=2266 bytes) (Status: UNKNOWN)
+
+0353 Network host status. E. Westheimer. June 1972. (Format: TXT=8747
+     bytes) (Obsoletes RFC0344) (Obsoleted by RFC0362) (Status: UNKNOWN)
+
+0354 File Transfer Protocol. A.K. Bhushan. July 1972. (Format:
+     TXT=58074 bytes) (Obsoletes RFC0264, RFC0265) (Obsoleted by RFC0542)
+     (Updated by RFC0385, RFC0454, RFC0683) (Status: UNKNOWN)
+
+0355 Response to NWG/RFC 346. J. Davidson. June 1972. (Format:
+     TXT=3717 bytes) (Status: UNKNOWN)
+
+0356 ARPA Network Control Center. R. Alter. June 1972. (Format:
+     TXT=1963 bytes) (Status: UNKNOWN)
+
+0357 Echoing strategy for satellite links. J. Davidson. June 1972.
+     (Format: TXT=30103 bytes) (Status: UNKNOWN)
+
+0358 Not Issued.
+
+0359 Status of the Release of the New IMP System (2600). D.C. Walden.
+     June 1972. (Format: TXT=2015 bytes) (Obsoletes RFC0343) (Status:
+     UNKNOWN)
+
+0360 Proposed Remote Job Entry Protocol. C. Holland. June 1972.
+     (Format: TXT=39473, PDF=1187574 bytes) (Obsoleted by RFC0407)
+     (Status: UNKNOWN)
+
+0361 Deamon Processes on Host 106. R.D. Bressler. July 1972. (Format:
+     TXT=1480 bytes) (Status: UNKNOWN)
+
+0362 Network Host Status. E. Westheimer. June 1972. (Format: TXT=8631
+     bytes) (Obsoletes RFC0353) (Obsoleted by RFC0366) (Status: UNKNOWN)
+
+0363 ARPA Network mailing lists. Network Information Center. Stanford
+     Research Institute. August 1972. (Format: TXT=25356 bytes) (Obsoletes
+     RFC0329) (Obsoleted by RFC0402) (Status: UNKNOWN)
+
+0364 Serving remote users on the ARPANET. M.D. Abrams. July 1972.
+     (Format: TXT=11253 bytes) (Status: UNKNOWN)
+
+0365 Letter to All TIP Users. D.C. Walden. July 1972. (Format:
+     TXT=10331 bytes) (Status: UNKNOWN)
+
+0366 Network Host Status. E. Westheimer. July 1972. (Format: TXT=8278
+     bytes) (Obsoletes RFC0362) (Obsoleted by RFC0367) (Status: UNKNOWN)
+
+0367 Network host status. E. Westheimer. July 1972. (Format: TXT=8057
+     bytes) (Obsoletes RFC0366) (Obsoleted by RFC0370) (Status: UNKNOWN)
+
+0368 Comments on "Proposed Remote Job Entry Protocol". R.T. Braden.
+     July 1972. (Format: TXT=3883 bytes) (Status: UNKNOWN)
+
+0369 Evaluation of ARPANET services January-March, 1972. J.R. Pickens.
+     July 1972. (Format: TXT=24414 bytes) (Status: UNKNOWN)
+
+0370 Network Host Status. E. Westheimer. July 1972. (Format: TXT=8389
+     bytes) (Obsoletes RFC0367) (Updated by RFC0376) (Status: UNKNOWN)
+
+0371 Demonstration at International Computer Communications
+     Conference. R.E. Kahn. July 1972. (Format: TXT=3728 bytes) (Status:
+     UNKNOWN)
+
+0372 Notes on a Conversation with Bob Kahn on the ICCC. R.W. Watson.
+     July 1972. (Format: TXT=6040 bytes) (Status: UNKNOWN)
+
+0373 Arbitrary Character Sets. J. McCarthy. July 1972. (Format:
+     TXT=7783 bytes) (Status: UNKNOWN)
+
+0374 IMP System Announcement. A.M. McKenzie. July 1972. (Format:
+     TXT=3963 bytes) (Status: UNKNOWN)
+
+0375 Not Issued.
+
+0376 Network Host Status. E. Westheimer. August 1972. (Format:
+     TXT=8861 bytes) (Updates RFC0370) (Status: UNKNOWN)
+
+0377 Using TSO via ARPA Network Virtual Terminal. R.T. Braden. August
+     1972. (Format: TXT=7093 bytes) (Status: UNKNOWN)
+
+0378 Traffic statistics (July 1972). A.M. McKenzie. August 1972.
+     (Format: TXT=5730 bytes) (Obsoleted by RFC0391) (Status: UNKNOWN)
+
+0379 Using TSO at CCN. R. Braden. August 1972. (Format: TXT=8674
+     bytes) (Status: UNKNOWN)
+
+0380 Not Issued.
+
+0381 Three aids to improved network operation. J.M. McQuillan. July
+     1972. (Format: TXT=9305 bytes) (Updated by RFC0394) (Status: UNKNOWN)
+
+0382 Mathematical Software on the ARPA Network. L. McDaniel. August
+     1972. (Format: TXT=2041 bytes) (Status: UNKNOWN)
+
+0383 Not Issued.
+
+0384 Official site idents for organizations in the ARPA Network. J.B.
+     North. August 1972. (Format: TXT=10401 bytes) (Obsoletes RFC0289)
+     (Status: UNKNOWN)
+
+0385 Comments on the File Transfer Protocol. A.K. Bhushan. August
+     1972. (Format: TXT=13030 bytes) (Updates RFC0354) (Updated by
+     RFC0414) (Status: UNKNOWN)
+
+0386 Letter to TIP users-2. B. Cosell, D.C. Walden. August 1972.
+     (Format: TXT=12475 bytes) (Status: UNKNOWN)
+
+0387 Some experiences in implementing Network Graphics Protocol Level
+     0. K.C. Kelley, J. Meir. August 1972. (Format: TXT=9059 bytes)
+     (Updated by RFC0401) (Status: UNKNOWN)
+
+0388 NCP statistics. V. Cerf. August 1972. (Format: TXT=8458 bytes)
+     (Updates RFC0323) (Status: UNKNOWN)
+
+0389 UCLA Campus Computing Network Liaison Staff for ARPA Network. B.
+     Noble. August 1972. (Format: TXT=2819 bytes) (Obsoleted by RFC0423)
+     (Status: UNKNOWN)
+
+0390 TSO Scenario. R.T. Braden. September 1972. (Format: TXT=6103
+     bytes) (Status: UNKNOWN)
+
+0391 Traffic statistics (August 1972). A.M. McKenzie. September 1972.
+     (Format: TXT=4695 bytes) (Obsoletes RFC0378) (Status: UNKNOWN)
+
+0392 Measurement of host costs for transmitting network data. G.
+     Hicks, B.D. Wessler. September 1972. (Format: TXT=14462 bytes)
+     (Status: UNKNOWN)
+
+0393 Comments on Telnet Protocol Changes. J.M. Winett. October 1972.
+     (Format: TXT=9435 bytes) (Also RFC0109, RFC0139, RFC0158, RFC0318,
+     RFC0328) (Status: UNKNOWN)
+
+0394 Two Proposed Changes to the IMP-Host Protocol. J.M. McQuillan.
+     September 1972. (Format: TXT=5780 bytes) (Updates RFC0381) (Status:
+     UNKNOWN)
+
+0395 Switch Settings on IMPs and TIPs. J.M. McQuillan. October 1972.
+     (Format: TXT=1827 bytes) (Status: UNKNOWN)
+
+0396 Network Graphics Working Group Meeting - Second Iteration. S.
+     Bunch. November 1972. (Format: TXT=2224 bytes) (Updated by RFC0474)
+
+</body>
+</html>
