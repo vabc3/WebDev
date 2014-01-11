@@ -22,9 +22,11 @@ int main()
     unsigned int addrlen;
     struct sockaddr_in sin;
     struct sockaddr_in pin;
-
-    if ((sd = socket(AF_INET, SOCK_STREAM, 0)) == -1){
-        perror("socket error");
+	WSADATA wsa = { 0 };
+	WSAStartup(MAKEWORD(31212, 23132), &wsa);
+	if ((sd = socket(AF_INET, SOCK_STREAM, 0)) == INVALID_SOCKET){
+		perror("socket error");
+		printf("Err:%d", WSAGetLastError());
         exit(1);
     }
     char optval=1;
@@ -54,7 +56,8 @@ int main()
 
     printf("Incoming %s:%d\n",inet_ntoa(pin.sin_addr),ntohs(pin.sin_port));
 
-    char data[8192];
+    char data[1024];
+	memset(data, 0, 1024);
 
     if (recv(cur, data, sizeof(data), 0) == -1){
         perror("recv");
@@ -68,9 +71,9 @@ int main()
         perror("send");
         exit(6);
     }
-
-    close(cur,1);
-    close(sd);
-
+	closesocket(cur);
+//    close(cur);
+    closesocket(sd);
+	//close(sd);
     return 0;
 }
