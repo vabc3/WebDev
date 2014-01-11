@@ -3,6 +3,9 @@
 #include <string.h>
 #include <stdlib.h>
 #ifdef WIN32
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
 #else
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -24,7 +27,7 @@ int main()
         perror("socket error");
         exit(1);
     }
-    int optval=1;
+    char optval=1;
     setsockopt(sd, SOL_SOCKET, SO_REUSEADDR, &optval, sizeof(optval));
 
     memset(&sin, 0, sizeof(sin));
@@ -60,13 +63,13 @@ int main()
 
     printf("%s\n",data);
 
-    strcpy(data,"fdsjl\n");
+	strcpy_s(data,255, "fdsjl\n");
     if(send(cur,data,strlen(data),0)==-1){
         perror("send");
         exit(6);
     }
 
-    close(cur);
+    close(cur,1);
     close(sd);
 
     return 0;
