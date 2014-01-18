@@ -2,14 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/types.h>
-#ifdef WIN32
-#else
 #include <arpa/inet.h>
 #include <netinet/in.h>
 #include <netdb.h>
 #include <sys/socket.h>
 #include <unistd.h>
-#endif
 
 int main()
 {
@@ -51,7 +48,6 @@ int main()
 
     printf("Incoming %s:%d\n",inet_ntoa(pin.sin_addr),ntohs(pin.sin_port));
 
-    char data[8192];
 
     if (recv(cur, data, sizeof(data), 0) == -1){
         perror("recv");
